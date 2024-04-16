@@ -1,4 +1,3 @@
-import jdk.jfr.StackTrace;
 import org.junit.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
@@ -6,7 +5,7 @@ import static org.junit.jupiter.api.Assertions.*;
 public class MoneyTest {
     @Test
     void cambioEUR_USD(){
-
+        assertInstanceOf();
     }
 
     @Test

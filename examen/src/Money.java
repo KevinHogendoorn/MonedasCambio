@@ -1,8 +1,13 @@
 public class Money {
-    TipoMoneda moneda;
+    private TipoMoneda moneda;
     private float money;
 
     public Money(TipoMoneda moneda, float money) {
+        this.moneda = moneda;
+        this.money = money;
+    }
+
+    public Money(TipoMoneda moneda) {
         this.moneda = moneda;
         validaMoney(money);
     }
